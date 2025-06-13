@@ -37,8 +37,8 @@ public class RouteActivity extends AppCompatActivity {
     private static final String TAG = "RouteActivity";
     private GeoPoint sosLocation;
 
-    private double driverLat = 8.3022;
-    private double driverLon = 77.2231;
+    private double driverLat = ... ;
+    private double driverLon = ... ;
 
     @SuppressLint("MissingInflatedId")
     @Override
