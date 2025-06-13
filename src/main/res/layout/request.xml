@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp"
+    android:background="#ffffff">
+
+    <Button
+        android:id="@+id/btnShowDriver"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Show Driver Details"
+        android:layout_marginBottom="16dp"
+        android:background="@color/basic_color"
+        android:textColor="#fff"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/txtDriverInfo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#eeeeee"
+        android:textColor="#000000"
+    android:textSize="16sp"
+    android:padding="12dp"
+    android:visibility="gone"
+    />
+
+    <Button
+        android:id="@+id/btnCallDriver"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Call Driver"
+        android:visibility="gone"
+        android:layout_marginTop="16dp" />
+
+
+
+</LinearLayout>
